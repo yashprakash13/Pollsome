@@ -13,4 +13,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8443
 
-CMD ["uvicorn", "run_bot:app", "--port=8443", "--host=0.0.0.0", "--reload"]
+# CMD ["uvicorn", "run_bot:app", "--port=8443", "--host=0.0.0.0", "--reload"]
